@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+}
+
+:host > img {
+  width: 250px;
+}
+

@@ -1,0 +1,16 @@
+<p>
+  Okay... well now that we have this api
+  that can give us a random set of card,
+  what do we do with it? My first instinct was to
+  create a card game like Gwent, then I realized that would be
+  incredibly hard to do under with the time contraints I have
+  to work with. So.. what if I made just a basic memory game. The
+  cards can be paired up by color and value (2 spades to 2 clubs, etc).
+  Pick two face down cards, reveal them, if they match them keep them face
+  up.
+</p>
+<p>
+  Seems to me that the first step would to be to create 52 face down cards
+  that you can flip over.
+</p>
+<grid-card [deck_id]="id" *ngFor="let i of numbers"></grid-card>

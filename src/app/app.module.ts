@@ -6,6 +6,8 @@ import { BasicComponent } from './basic/basic.component';
 import { HomeComponent } from './home/home.component';
 import { DrawComponent } from './draw/draw.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GridComponent } from './grid/grid.component';
+import { CardComponent } from './grid/card/card.component';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     BasicComponent,
     HomeComponent,
-    DrawComponent
+    DrawComponent,
+    GridComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
